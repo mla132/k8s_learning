@@ -15,6 +15,6 @@ spec:
         app: active-mq
     spec:
       containers:
-        - image: active-mq:latest
+        - image: ghcr.io/mla132/activemq:5.15.6
           name: active-mq
-          imagePullPolicy: Never
+          imagePullPolicy: Always
